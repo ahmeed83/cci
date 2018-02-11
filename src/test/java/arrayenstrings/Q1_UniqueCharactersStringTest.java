@@ -11,8 +11,8 @@ class Q1_UniqueCharactersStringTest {
 
     Q1_UniqueCharactersString q1UniqueCharactersString = new Q1_UniqueCharactersString();
 
-    private String uniqueString = "abcdefghijklmnopqrstuvwxyz1234567890";
-    private String notuniqueString = "abcdefghijklmnopqrstuvwxyz1234567890x";
+    private static final  String uniqueString = "abcdefghijklmnopqrstuvwxyz1234567890";
+    private static final  String notuniqueString = "abcdefghijklmnopqrstuvwxyz1234567890x";
 
     @Test
     void determineUniqueCharSuccessNoDS() {
