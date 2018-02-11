@@ -6,8 +6,6 @@ class Q2_PermutationString {
 
     boolean determinePermutationString(String permutationString1, String permutationString2) {
 
-
-
         return true;
     }
 }

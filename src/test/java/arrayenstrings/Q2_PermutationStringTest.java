@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class Q2_PermutationStringTest {
 
     Q2_PermutationString q2_permutationString = new Q2_PermutationString();
-
     private static final String permutationString1 = "ABC";
     private static final String permutationString2 = "CBA";
     private static final String notPermutationString = "XCV";
