@@ -29,7 +29,9 @@ class Q1_UniqueCharactersString {
         for (int i = 0; i < string.length(); i++) {
              setStrings.add(string.substring(i,i+1));
         }
-        // return true if the size of the Set list equal to the provided string. The set string size will be without any duplicate.
+        // return true if the size of the Set list equal to the provided string.
+        // The Set string size will be without any duplicates.
+        //which means every letter in the string will be uniqe. If its not, the return false
         return setStrings.size() == string.length();
     }
 }
